@@ -1,0 +1,72 @@
+body {
+    font-family: 'Times New Roman', Times, serif, sans-serif;
+    margin: 60px auto;
+    background-color: #fdf6f0;
+    color: #333;
+    line-height: 1.7;
+    align-items: center;
+
+
+}
+
+h1 {
+    color: #c94c4c;
+    text-align: center;
+    font-size:larger;
+    letter-spacing: 1px;
+    margin-bottom: 20px;
+
+}
+
+a {
+    text-decoration: none;
+    color: #2d6a4f;
+    font-weight: bold;
+}
+
+.food-list {
+    margin-top: 20px;
+    display: grid;
+    gap: 25px;
+    grid-template-columns: repeat(2, 1fr)
+}
+
+.food-card {
+    background-color: #fff;
+    padding: 15px;
+    margin-bottom: 15px;
+    border-left: 5px solid #2d6a4f;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+img {
+    height: 400px;
+    width: 400px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    margin-bottom: 20px;
+
+
+
+}
+
+
+.hint-box {
+  display: inline-block;
+  background-color: #ffe5e0;
+  align-items: flex-start;
+
+  border-radius: 10px;
+  padding: 12px 16px;
+  font-size: 0.95rem;
+  color: #5a3e36;
+  margin-left: 20px;
+  vertical-align: top;
+}
+
+
+.flash {
+    color:#c94c4c;
+    font-weight: bold;
+    
+}
